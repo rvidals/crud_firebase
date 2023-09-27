@@ -7,4 +7,11 @@
     </style>
 
     <style name="Theme.Crud_firebase" parent="Base.Theme.Crud_firebase" />
+
+    <!--Customização-->
+    <style name="CustomTabLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
