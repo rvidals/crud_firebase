@@ -22,7 +22,7 @@ class FirebaseHelper {
         /*Verificar se o usuario está autenticado no APP*/
         fun getAutenticated() = getAuth().currentUser != null
 
-        /*Tratamento de erro -> Inglês para Português */
+        /*Tratamento de erro -> Inglês para Português*/
 
         fun validError(error: String) : Int {
             return when{
