@@ -12,10 +12,18 @@
     <!--Login Fragment-->
     <string name="text_btn_login_fragment">Login</string>
     <string name="text_recover_login_fragment">Recuperar conta</string>
+    <string name="error_generic">Opaa! Ocorreu um erro, tente novamente mais tarde!</string>
 
 
 
     <!--Recouver Account Fragment-->
     <string name="text_btn_recover_account_fragment">Enviar</string>
+
+    <!--Erros Firebase Authentication-->
+    <string name="account_not_registered_register_fragment">Nenhuma conta encontrada co este e-mail!</string>
+    <string name="invalid_email_register_fragment">Insira um e-mail válido.</string>
+    <string name="invalid_password_register_fragment">Senha inválida, tente novamente.</string>
+    <string name="email_in_use_register_fragment">Este e-mail já está em uso.</string>
+    <string name="strong_password_register_fragment">Insira uma senha mais forte.</string>
 
 </resources>
